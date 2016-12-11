@@ -3,7 +3,7 @@ A small command-line program for managing .pls playlists.
 
 ## Installation
 ### Cabal
-(I haven't actually tested it with cabal, but it should work)
+(I haven't actually tested it with cabal, but it should work...)
 ```
 $ git clone https://github.com/bradrn/pls-mgr
 $ cabal configure
@@ -13,7 +13,6 @@ $ cabal install
 ### Stack
 ```
 $ git clone https://github.com/bradrn/pls-mgr
-$ stack build
 $ stack install
 ```
 
@@ -26,4 +25,3 @@ pls-mgr is invoked as `pls-mgr COMMAND`, where `COMMAND` is one of the following
 * `remove playlist_file`, which deletes a song at the specified index (again, specified interactively);
 * `replace playlist_file title file length`, which replaces a song at the specified index (specified interactively) in the playlist; and
 * `show playlist_file`, which prints the playlist in a human-readable format.
-The meaning of the arguments (`playlist_file`, `title` etc.) is summarised in the table below:
